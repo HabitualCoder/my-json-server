@@ -1,14 +1,41 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "users": {
+    "error": false,
+    "description": "List of all the users",
+    "data": [
+      {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz"
+      }
+    ]
+  },
+  "posts": {
+    "error": false,
+    "description": "List of user posts",
+    "data": [
+      { "id": 1, "title": "Post 1" },
+      { "id": 2, "title": "Post 2" },
+      { "id": 3, "title": "Post 3" }
+    ],
+  },
+  "todos": {
+    "error": false,
+    "description": "List of user todos",
+    "data": [
+      { "id": 1, "title": "Todo 1" },
+      { "id": 2, "title": "Todo 2" },
+      { "id": 3, "title": "Todo 3" }
+    ],
+  },
+  "albums": {
+    "error": false,
+    "description": "List of user albums",
+    "data": [
+      { "id": 1, "title": "Album 1" },
+      { "id": 2, "title": "Album 2" },
+      { "id": 3, "title": "Album 3" }
+    ],
   }
 }
